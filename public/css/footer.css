@@ -1,0 +1,58 @@
+.footer {
+    background-color: #ef7a23;
+    color: white;
+    margin-right: 0;
+    margin-left: 0px;
+}
+
+.borderRight {
+    border-right-color: white;   
+    border-right-style: solid;   
+    border-right-width: 1px;   
+}
+
+.footerHeaders {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.socialFooter {
+    border-top-color: white;   
+    border-top-style: solid;   
+    border-top-width: 1px; 
+    padding-top: 10px;
+    padding-left: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-right: 10%;
+}
+
+.socialFooter img {
+    height: 20px; 
+    padding-right: 20px;
+    float: right;
+}
+
+.row {
+    margin-right: 0; 
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 1000px){
+    .borderRight {            
+        border-right-color: white;   
+        border-right-style: solid;   
+        border-right-width: 0px;
+        
+        border-bottom-color: white;   
+        border-bottom-style: solid;   
+        border-bottom-width: 1px;
+    }
+}

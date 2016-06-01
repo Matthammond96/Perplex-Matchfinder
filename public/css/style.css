@@ -1,0 +1,282 @@
+.navbar-brand{
+        font-size:3em;
+      }
+#topContainer {
+  background-color: white;
+  width:100%;
+  background-size:cover;
+}
+
+#topRow {
+  margin-top:100px;
+  text-align:center;
+}
+#topRow h1{
+  font-size:300%
+}
+.bold{
+  font-weight: bold;
+}
+.marginTop{
+  margin-top:20px;
+}
+.center{
+  text-align: center;
+}
+.title{
+  margin-top:30px;
+  font-size:300%;
+}
+.marginBottom{
+  margin-bottom:50px;
+}
+.marginRight {
+    margin-right: 20px;
+}
+#footer{
+  background-color:#262625;
+  width:100%;
+}
+.appstoreImage{
+  width:300px;
+  margin-top:50px;
+}
+.whiteText{
+  color:white;
+}
+.divBox {
+    height: auto;
+    width: auto;
+/*    background-color: grey;*/
+/*    border-radius: 5px;*/
+    border-bottom: solid black 1px;
+/*    display: inline-block;*/
+    vertical-align: top;
+/*    margin-bottom: 5px;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.divBox:nth-child(odd) {
+    background-color: #333;
+    
+}.divBox:nth-child(even) {
+    background-color: black;
+}
+.floatRight {
+    float: right;
+}
+#bgColor {
+/*    background-color: #333;*/
+}
+.titleText{
+    color: black;
+}
+#footerCon {
+    width: 100%;
+    background-color: #13c7b9;
+    height: 50px;
+}
+.footerText {
+    padding-top: 10px;
+}
+#leftFooter {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    padding-left: 7.5%;
+}
+
+#rightFooter {
+    width: 40%;
+    display: inline-block;
+    float: right;
+    height: 10px;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10%;
+}
+.socialLogo {
+    width: 25px;
+    height: auto; 
+    padding-top: 12px;
+}
+
+.postForm {
+/*    max-height: 300px;*/
+    overflow: hidden;
+    width: 100%;
+    transition: all 1s;
+    height: auto;
+}
+
+.postHidden {
+    max-height: 0px;
+    overflow: hidden;
+    width: 100%;
+    transition: all 1s;
+}
+
+#gamertagWidth {
+    width: 99%;
+}
+.postDiv{
+    display: inline-block;
+}
+#sameLine {
+    display: inline-block;
+    width: 30%;
+    margin-left: 5px;
+}.sameLine {
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+}
+#eminem {
+    width: 100%;
+    overflow-y: hidden;
+}
+#headerImage {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /*background-image:url("../images/header.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height: 800px;*/
+}
+.inputEmail {
+    display: inline-block;
+    width: 80%;
+}
+.emailSubmit {
+    display: inline-block;
+    width: 19%;
+    margin-top: 0;
+}
+.playerBio {
+    vertical-align: top;
+}
+.bioRight {
+    text-align: right;
+}
+
+.btn-success {
+    background-color: #ef7a23;
+    border-color: #ef7a23;
+}
+
+.btn-success:hover {
+    background-color: #d96b1c;
+    border-color: #d96b1c;
+}   
+
+.thinFont {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.facePic {
+    vertical-align: top;
+}
+.playerSocial {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.btn-success.disabled.focus, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled].focus, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
+    background-color: #d96b1c;
+    
+}
+a {
+    color: white;
+}
+
+/* News Bar */
+.news {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+}
+
+.newsContainer {
+    overflow: hidden;
+    height: 100px;
+}
+.orangeText {
+    color: #d96b1c;
+}
+.tipDiv {
+    margin-top: 50px;
+}
+
+/* Settings Menus */
+.box {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.box.menu {
+    width: 25%;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.box.menu ul {
+    padding-left: 0;
+}
+
+.box.menu ul li {
+    margin-left: 10%;
+    list-style-type: none;
+}
+
+.box.menu ul li a {
+    color: black;
+}
+
+.box.menu ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.box.content {
+    width: 70%;
+    padding-left: 15px;
+    border-left: solid black 1px;
+}
+
+td {
+/*    border: solid black 1px;*/
+    padding: 2px;
+/*    border-bottom: solid black 1px;*/
+/*    text-align: center;*/
+}
+
+.navigation-submenu li a {
+    color: black;
+}
+
+.navigation-submenu li a:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navigation-submenu li:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navigation-submenu {
+    width: 180px;
+}
+
+.editor-container {
+    height: 100%;
+    overflow-y: scroll;
+}

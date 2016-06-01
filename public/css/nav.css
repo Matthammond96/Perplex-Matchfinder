@@ -1,0 +1,40 @@
+.navBlack {
+    background-color: black;
+}
+
+.navBlack a {
+    color: white;
+}
+
+.navbar-fixed-top a {
+    color: white;
+}
+
+.navRight {
+    float: right;
+}
+
+.navLogo {
+    height: 70px;
+    position: relative;
+    top: -10px;
+}
+
+.navbar-brand {
+    padding-top: 1px;   
+}
+
+.navbar-fixed-top .navLogo {
+    height: 50px;
+    top: 0px;
+}
+.navbar-nav li:hover {
+    background-color: black;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: #000;
+    color: #ef7a23;
+}
+.icon-bar {
+    background-color: white;
+}
